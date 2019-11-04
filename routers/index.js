@@ -7,4 +7,5 @@
  */
 const loginRouter = require('./login.router');
 const userlistRouter = require('./userlist.router');
-module.exports = [ loginRouter, userlistRouter ];
+const dragListRouter = require('./drag.router');
+module.exports = [loginRouter, userlistRouter, dragListRouter];
